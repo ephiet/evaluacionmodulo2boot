@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
+    color: #4e4146;
 }
 .btn-hover {
     text-decoration: none;
@@ -30,9 +31,19 @@
 .footer-bg{
     background-color: #6E3A3C;
 }
-.txt-white{
-    color: #ffffff;
-}
+
 .parrafo{
     font-size: .95em;
 }
+.btn, 
+.btn-link, 
+.btn-hover {
+    background-color: #fdebb4;
+    color:  #6E3A3C;
+}
+.btn:hover, 
+.btn-link:hover, 
+.btn-hover:hover {
+    color: #fdebb4;
+    background-color:  #6E3A3C;
+} 
